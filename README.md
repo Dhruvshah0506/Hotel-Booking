@@ -1,21 +1,307 @@
-# 💫 About Me:
-"I'm a CSE engineering student specializing in AI at Parul University, with intermediate knowledge of C, Dart, Java, and beginner-level Python. I've worked on projects like Grocery Management and Student Management, and I'm currently developing a full-stack MERN hotel booking website. I'm also exploring plugin development to bridge language barriers on websites."
+# Hotel Booking System
 
+A full-stack MERN (MongoDB, Express.js, React, Node.js) hotel booking application that allows users to browse, view, and book hotel rooms with a modern and responsive interface.
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/dhhrruuvvshah) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Dhruv Shah) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/Dhruv Shah) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@DhruvShah496625) 
+## 🏨 Features
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=flat&logo=dart&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat&logo=anaconda&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=flat&logo=.net&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=flat&logo=nVIDIA&logoColor=green) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=flat&logo=spring&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=flat&logo=apache-tomcat&logoColor=black) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=flat&logo=firebase&logoColor=ffcd34) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=Hibernate&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat&logo=Arduino&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Dhruvshah0506&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Dhruvshah0506&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruvshah0506&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+### Core Functionality
+- **Room Management**: Browse and view detailed information about hotel rooms
+- **User Authentication**: Secure user registration and login system
+- **Room Gallery**: Interactive image carousel for room viewing
+- **Responsive Design**: Mobile-first responsive interface using React Bootstrap
+- **Real-time Data**: Dynamic room availability and booking information
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+### User Features
+- View all available rooms with detailed information
+- Browse room images in an interactive gallery
+- User registration and authentication
+- Room booking interface (in development)
+- Responsive design for all devices
+
+### Admin Features
+- Admin role management system
+- User management capabilities
+
+## 🛠 Technology Stack
+
+### Frontend
+- **React** (v19.0.0) - JavaScript library for building user interfaces
+- **React Router DOM** (v7.1.1) - Client-side routing
+- **React Bootstrap** (v2.10.7) - UI component library
+- **Axios** (v1.7.9) - HTTP client for API requests
+- **React Spinners** (v0.15.0) - Loading indicators
+
+### Backend
+- **Node.js** - JavaScript runtime environment
+- **Express.js** (v4.21.2) - Web application framework
+- **MongoDB** - NoSQL database
+- **Mongoose** (v8.9.3) - MongoDB object modeling
+
+### Development Tools
+- **Create React App** - React development setup
+- **ESLint** - Code linting
+- **Web Vitals** - Performance monitoring
+
+## 📁 Project Structure
+
+```
+hotel-booking/
+├── client/                 # React frontend application
+│   ├── public/            # Static assets
+│   ├── src/
+│   │   ├── components/    # Reusable React components
+│   │   │   ├── Navbar.js
+│   │   │   ├── Room.js
+│   │   │   ├── Loader.js
+│   │   │   ├── Error.js
+│   │   │   └── Success.js
+│   │   ├── screens/       # Page components
+│   │   │   ├── Homescreen.js
+│   │   │   ├── Bookingscreen.js
+│   │   │   ├── Register.js
+│   │   │   └── Loginscreen.js
+│   │   ├── App.js         # Main app component
+│   │   └── index.js       # App entry point
+│   └── package.json
+├── models/                # Database schemas
+│   ├── room.js           # Room model
+│   └── user.js           # User model
+├── routes/               # API endpoints
+│   ├── roomsroute.js     # Room-related routes
+│   └── usersRoute.js     # User-related routes
+├── node_modules/         # Backend dependencies
+├── db.js                 # Database configuration
+├── server.js             # Express server setup
+└── package.json          # Backend dependencies
+```
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB Atlas account or local MongoDB installation
+- npm or yarn package manager
+
+### Backend Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Dhruvshah0506/Hotel-Booking.git
+   cd Hotel-Booking
+   ```
+
+2. **Install backend dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Configure environment variables:**
+   Create a `.env` file in the root directory and add:
+   ```env
+   MONGO_URL=your_mongodb_connection_string
+   PORT=5000
+   ```
+
+4. **Start the backend server:**
+   ```bash
+   npm start
+   ```
+   The server will run on `http://localhost:5000`
+
+### Frontend Setup
+
+1. **Navigate to client directory:**
+   ```bash
+   cd client
+   ```
+
+2. **Install frontend dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the React application:**
+   ```bash
+   npm start
+   ```
+   The application will run on `http://localhost:3000`
+
+## 📚 API Documentation
+
+### Room Routes (`/api/rooms`)
+
+#### GET `/api/rooms/getallrooms`
+- **Description**: Retrieve all available rooms
+- **Response**: Array of room objects
+- **Example**:
+  ```json
+  [
+    {
+      "_id": "room_id",
+      "name": "Deluxe Room",
+      "phonenumber": 1234567890,
+      "rentperday": 2500,
+      "imageurls": ["url1", "url2"],
+      "currentbookings": [],
+      "type": "Deluxe",
+      "description": "Spacious room with premium amenities",
+      "maxcount": 2
+    }
+  ]
+  ```
+
+#### POST `/api/rooms/getroombyid`
+- **Description**: Get specific room details by ID
+- **Body**: `{ "roomid": "room_id" }`
+- **Response**: Single room object
+
+### User Routes (`/api/users`)
+
+#### POST `/api/users/register`
+- **Description**: Register a new user
+- **Body**:
+  ```json
+  {
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "password123"
+  }
+  ```
+- **Response**: Success message or error
+
+#### POST `/api/users/login`
+- **Description**: Authenticate user login
+- **Body**:
+  ```json
+  {
+    "email": "john@example.com",
+    "password": "password123"
+  }
+  ```
+- **Response**: User object with authentication details
+
+## 💾 Database Schema
+
+### Room Schema
+```javascript
+{
+  name: String (required),
+  phonenumber: Number (required),
+  rentperday: Number (required),
+  imageurls: Array,
+  currentbookings: Array,
+  type: String (required),
+  description: String (required),
+  maxcount: Number (required, default: 3),
+  timestamps: true
+}
+```
+
+### User Schema
+```javascript
+{
+  name: String (required),
+  email: String (required, unique),
+  password: String (required),
+  isAdmin: Boolean (default: false),
+  timestamps: true
+}
+```
+
+## 🎨 Key Components
+
+### Room Component
+- Displays room information in card format
+- Interactive image carousel modal
+- Room details including price, capacity, and amenities
+- Direct booking button integration
+
+### Navigation Component
+- Responsive navigation bar
+- User authentication status
+- Route navigation for different pages
+
+### Authentication Screens
+- User registration form
+- Login interface
+- Form validation and error handling
+
+## 🔧 Configuration
+
+### Proxy Configuration
+The React app is configured with a proxy to the backend server:
+```json
+"proxy": "http://localhost:5000/"
+```
+
+### MongoDB Configuration
+Database connection is configured in `db.js`:
+- Connection to MongoDB Atlas
+- Error handling for connection failures
+- Success logging for established connections
+
+## 🚀 Deployment
+
+### Backend Deployment
+- Set up environment variables on your hosting platform
+- Configure MongoDB connection string
+- Set appropriate PORT variable
+
+### Frontend Deployment
+- Run `npm run build` in the client directory
+- Deploy the build folder to your hosting platform
+- Update API endpoints if necessary
+
+## 🔄 Development Workflow
+
+### Available Scripts
+
+**Backend:**
+- `node server.js` - Start the Express server
+
+**Frontend:**
+- `npm start` - Start development server
+- `npm run build` - Build for production
+- `npm test` - Run test suite
+- `npm run eject` - Eject from Create React App
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m 'Add feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a pull request
+
+## 📝 Future Enhancements
+
+- [ ] Complete booking functionality implementation
+- [ ] Payment gateway integration
+- [ ] Email confirmation system
+- [ ] Advanced search and filtering
+- [ ] Admin dashboard for room management
+- [ ] Booking history and management
+- [ ] Review and rating system
+- [ ] Mobile app development
+
+## 🐛 Known Issues
+
+- Booking functionality is partially implemented
+- Password encryption not implemented (security concern)
+- Error handling could be improved
+- Missing input validation on frontend
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👨‍💻 Author
+
+**Dhruv Shah**
+- CSE Engineering Student specializing in AI at Parul University
+- GitHub: [@Dhruvshah0506](https://github.com/Dhruvshah0506)
+- LinkedIn: [Dhruv Shah](https://linkedin.com/in/Dhruv%20Shah)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Dhruvshah0506&icon=2&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+For any questions or support, please feel free to reach out through the GitHub issues page or contact the author directly.
